@@ -1,4 +1,17 @@
 {
+    "Starter Template": {
+    "prefix": "st",
+    "body": [
+        "#include <iostream>",
+        "",
+        "int main (int argc, char *argv[]) {",
+            "\t$1",
+            "",
+            "\treturn 0;",
+        "}"
+        ],
+        "description": "Standard starter template for a tiny C++ program"
+    },
     "for": {
         "prefix": "for",
         "body": [
@@ -191,7 +204,7 @@
     },
     "cout": {
         "prefix": "cout",
-        "body": ["std::cout << \"${1:message}\" << std::endl;"],
+        "body": ["std::cout << ${1:message};"],
         "description": "Code snippet for printing to std::cout, provided the header is set"
     },
     "cin": {
