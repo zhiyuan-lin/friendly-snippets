@@ -38,7 +38,7 @@ use "rafamadriz/friendly-snippets"
 ### With vim-plug
 
 ```vim
-Plug "rafamadriz/friendly-snippets"
+Plug 'rafamadriz/friendly-snippets'
 ```
 
 ### With coc.nvim
